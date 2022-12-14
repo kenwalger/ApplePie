@@ -13,6 +13,7 @@
 		8BA4DF77294A551D00E95623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4DF75294A551D00E95623 /* Main.storyboard */; };
 		8BA4DF79294A551E00E95623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4DF78294A551E00E95623 /* Assets.xcassets */; };
 		8BA4DF7C294A551E00E95623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4DF7A294A551E00E95623 /* LaunchScreen.storyboard */; };
+		8BA4DF95294A69C800E95623 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4DF94294A69C800E95623 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8BA4DF78294A551E00E95623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA4DF7B294A551E00E95623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA4DF7D294A551E00E95623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA4DF94294A69C800E95623 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		8BA4DF63294A551D00E95623 = {
 			isa = PBXGroup;
 			children = (
+				8BA4DF94294A69C800E95623 /* Game.swift */,
 				8BA4DF6E294A551D00E95623 /* ApplePie */,
 				8BA4DF6D294A551D00E95623 /* Products */,
 			);
@@ -141,6 +144,7 @@
 				8BA4DF74294A551D00E95623 /* ViewController.swift in Sources */,
 				8BA4DF70294A551D00E95623 /* AppDelegate.swift in Sources */,
 				8BA4DF72294A551D00E95623 /* SceneDelegate.swift in Sources */,
+				8BA4DF95294A69C800E95623 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenwalger.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenwalger.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
